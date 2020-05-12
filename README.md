@@ -47,6 +47,8 @@ Below are the requirements for this task
   * Azure
   * AWS
   * Kubernetes
+* concurency - perhaps it will take less time to collect all samples at the same time and aggregate the results afterwards?
+* automatic time units. It might make sense to use automatic time units, i.e. show milliseconds when the latency is under 5 seconds and show seconds when the latency is higher
 
 
 ### Bonus points
