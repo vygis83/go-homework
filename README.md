@@ -60,3 +60,14 @@ Below are the requirements for this task
   * AWS Lambda (the whole service is written as lambda function)
   * Kubernetes
 * Automated tests with at least 50% code coverage (`go test -cover ./...`)
+
+### :rotating_light: Deployment on provided Azure VM :rotating_light:
+When deploying your application to the provided Azure VM, please use the following formula to calculate the TCP port for your API:
+
+`PORT = 8080 + your github fork number`
+
+To calculate your fork number, look at the example picture below. i.e. if your username is the marked one, your fork number is **5** and your port will be 8080+5 = **8085**
+
+<p align="center">
+    <img src=".assets/forks.png" />
+</p>
