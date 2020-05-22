@@ -10,7 +10,7 @@ Below are the requirements for this task
 
 ### General
 
-* You need to fork this repository
+* You need to fork this repository. :rotating_light: Remember the number of forks before clicking a button, you will need that number later :rotating_light:
 * The service (http server) needs to be written in Go
 * Any package or framework can be used, but I suggest to just use Standard Go packages like `net/http`, `time`, `json`
 
@@ -66,8 +66,3 @@ When deploying your application to the provided Azure VM, please use the followi
 
 `PORT = 8080 + your github fork number`
 
-To calculate your fork number, look at the example picture below. i.e. if your username is the marked one, your fork number is **5** and your port will be 8080+5 = **8085**
-
-<p align="center">
-    <img src=".assets/forks.png" />
-</p>
